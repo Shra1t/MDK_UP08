@@ -1,0 +1,410 @@
+@font-face {
+    font-family: "LibreFranklin";
+    src: url("fonts/Libre_FranklinTenor_Sans/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "TenorSans";
+    src: url("fonts/Libre_FranklinTenor_Sans/Tenor_Sans/TenorSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "SourceSerifPro";
+    src: url("fonts/SourceSerifPro/SourceSerifPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "LibreBold";
+    src: url("fonts/Libre_FranklinTenor_Sans/Libre_Franklin/static/LibreFranklin-Bold.ttf");
+}
+
+
+
+/* for-all start */
+h1 {
+    width: 80%;
+    font-family: "TenorSans";
+    font-size: 26px;
+}
+h3 {
+    width: 100%;
+    font-family: "TenorSans";
+    font-size: 20px;
+    color: #000000;
+    margin-top: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* for-all end */
+
+/* header start */
+header .container{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.headlogo {
+    display: flex;
+    margin: 30px auto;
+    margin-left: 0;
+}
+
+header nav{
+    width: 1200px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .menu{
+    font-family: "LibreFranklin";
+    gap: 50px;
+    display: flex;
+    margin: 35px 0 0 35px;
+}
+
+/* header end */
+
+/* main start */
+.smalltext {
+    font-family: "SourceSerifPro";
+    font-size: 16px;
+    color: #666666;
+    display: flex;
+    margin-top: 20px;
+}
+.by {
+    font-family: "LibreBold";
+    font-size: 10px;
+    color: #000000;
+    display: flex;
+    margin-top: 20px;
+}
+.text_grey {
+    color: #999999;
+    font-family: "LibreFranklin";
+    font-size: 10px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.startscreen {
+    display: flex;
+    margin-top: 55px;
+}
+.NewBig {
+    width: 430px;
+    margin: 0 auto;
+    display: block;
+}
+.startscreen h1 {
+    margin-top: 20px;
+}
+
+/* posts start */
+.posts {
+    padding: 70px 0 50px 0;
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+.new {
+    width: 387px;
+}
+
+.latestnews {
+    border-bottom: 1px solid #E6E6E6;
+}
+.zagolovok {
+    color: #999999;
+    font-family: "LibreFranklin";
+    font-size: 10px;
+    padding-bottom: 30px;
+    padding-top: 90px;
+}
+.latestnews_all {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.latestnew {
+    width: 285px;
+}
+
+.latestnew img{
+    max-width: 100%;
+}
+
+.button1 {
+    width: 205px;
+    font-family: "LibreFranklin";
+    color: black;
+    margin: 20px auto;
+    background-color: white;
+    font-size: 10px;
+    display: block;
+    padding: 19px;
+}
+
+
+.featured {
+    padding: 40px 0 90px;
+}
+.featurednews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.featurednew {
+    width: 590px;
+}
+/* main end */
+
+/* footer start */
+
+footer {
+    background-color: #000000;
+    margin: 0 auto;
+    padding: 90px 0 120px 0;
+}
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: "TenoraSans";
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.rights {
+    font-size: 10px;
+    color: #666666;
+    margin: 0;
+}
+
+.line3 {
+    border: 0;
+    height: 1px;
+    background-color: #4D4D4D;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.category-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+}
+
+.categories p {
+    font-size: 10px;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories li {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.newsletter {
+    margin-left: 60px;
+}
+
+.newsletter p {
+    font-size: 10px;
+    color: #666666;
+    padding-bottom: 15px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #666666;
+    background-color: #CCCCCC;
+    color: #000000;
+    font-size: 14px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #666666;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.newsletter button:hover {
+    background-color: #666666;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+
+.info {
+    margin-right: 67px;
+}
+
+.follow {
+    margin: 0 70px;
+}
+
+.template {
+    margin-left: 80px;
+}
+
+.footer-info p {
+    font-size: 10px;
+    color: #666666;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-info li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+/* footer end */
+
+/* Adaptive layout */
+@media screen and (min-width: 375px) and (max-width: 750px) {
+    /* containers and others */
+    header .container{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        padding-left: 100px;
+    }
+    .footer-info{
+        width: 100%;
+    }
+    .container .startscreen {
+        width: 100%;
+    }
+    .button1{
+        width: 100%;
+    }
+    .startscreen img {
+        width: 80%;
+    }
+    .latestnews{
+        max-width: 100%;
+        margin-left: 100px;
+    }
+    .new{
+        width: 100%;
+        padding: 20px 0 0 150px;
+    }
+    /* menu-hide */
+
+    /* headlines */
+    h1 {
+        width: 80%;
+        font-family: "TenorSans";
+        font-size: 26px;
+    }
+    h3 {
+        width: 100%;
+        font-family: "TenorSans";
+        font-size: 20px;
+        color: #000000;
+        margin-top: 15px;
+    }
+
+    /* text */
+    .smalltext {
+        width: 100%;
+        font-family: "SourceSerifPro";
+        font-size: 16px;
+        color: #666666;
+        display: flex;
+        margin-top: 20px;
+    }
+    .by {
+        width: 100%;
+        font-family: "LibreBold";
+        font-size: 10px;
+        color: #000000;
+        display: flex;
+        margin-top: 20px;
+    }
+    .text_grey {
+        width: 100%;
+        color: #999999;
+        font-family: "LibreFranklin";
+        font-size: 10px;
+        display: flex;
+        margin-top: 15px;
+    }
+    .NewBig {
+        width: 100%;
+    }
+    .newsletter p {
+        width: 100%;
+        font-size: 10px;
+        color: #666666;
+        padding-bottom: 15px;
+    }
+    .categories p {
+        font-size: 10px;
+        color: #666666;
+        margin-bottom: 25px;
+    }
+}
