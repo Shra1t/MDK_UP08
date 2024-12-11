@@ -323,7 +323,7 @@ footer {
 /* footer end */
 
 /* Adaptive layout */
-@media screen and (min-width: 375px) and (max-width: 750px) {
+@media screen and (min-width: 375px) and (max-width: 725px) {
     /* containers and others */
     header .container{
         width: 100%;
@@ -336,7 +336,7 @@ footer {
         width: 100%;
     }
     .container .startscreen {
-        width: 100%;
+        width: 80%;
     }
     .button1{
         width: 100%;
